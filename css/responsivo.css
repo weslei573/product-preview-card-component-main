@@ -1,0 +1,26 @@
+@media screen and (max-width: 679px) {
+    body{
+        margin: 10px;
+    }
+    .container{
+        flex-direction: column;
+        background-color: hsl(0, 0%, 100%); 
+        max-width: 350px;
+        height: 100%;
+        border-radius: 15px;
+    }
+
+    .imagem img{
+        width: 350px;
+        height: 250px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 15px;
+    }
+
+    .left{
+        margin: 20px;
+        height: 85%;
+        gap: 10px;
+    }
+}

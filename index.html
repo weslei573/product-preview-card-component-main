@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+
+</head>
+
+<body>
+  <main class="container">
+    <section class="imagem">
+      <picture class="img1">
+        <source media="(max-width: 679px)" srcset="images/image-product-mobile.jpg">
+        <img src="images/image-product-desktop.jpg" alt="Chanel Paris">
+      </picture>
+    </section>
+    <section class="left">
+      <header class="cabecalho">
+        <span>Perfume</span>
+      </header>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p>
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      <div>
+        <span class="letra-g">$149.99</span>
+        <span class="letra-p"><del>$169.99</del></span>
+      </div>
+      <button id="botao-alterar"> 
+        <div class="but">
+          <img src="images/icon-cart.svg" >
+          <b>Add to Cart</b>
+        </div>
+      </button>
+    </section>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
